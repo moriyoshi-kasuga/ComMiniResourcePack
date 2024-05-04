@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/phantom_membrane"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "minecraft:snipers/iron_bullet"},
+    {"predicate": {"custom_model_data":2}, "model": "minecraft:snipers/gold_bullet"},
+    {"predicate": {"custom_model_data":3}, "model": "minecraft:snipers/copper_bullet"},
+    {"predicate": {"custom_model_data":4}, "model": "minecraft:snipers/emerald_bullet"},
+    {"predicate": {"custom_model_data":5}, "model": "minecraft:snipers/diamond_bullet"},
+    {"predicate": {"custom_model_data":6}, "model": "minecraft:snipers/amethyst_bullet"}
+  ]
+}
