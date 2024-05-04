@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/carrot_on_a_stick"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "minecraft:ui/arrows/up_arrow"},
+    {"predicate": {"custom_model_data":2}, "model": "minecraft:ui/arrows/down_arrow"},
+    {"predicate": {"custom_model_data":3}, "model": "minecraft:ui/arrows/left_arrow"},
+    {"predicate": {"custom_model_data":4}, "model": "minecraft:ui/arrows/right_arrow"}
+  ]
+}
