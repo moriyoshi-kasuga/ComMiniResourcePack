@@ -1,6 +1,6 @@
 {
   "textures": {
-      "spyglass": "item/spyglass_model"
+      "spyglass": "snipers/spyglass_model"
   },
   "elements": [
       {
@@ -50,6 +50,6 @@
       }
   },
   "overrides": [
-    {"predicate": {"custom_model_data":1}, "model": "minecraft:item/rifle_in_hand"}
+    {"predicate": {"custom_model_data":1}, "model": "minecraft:snipers/rifle_in_hand"}
   ]
 }

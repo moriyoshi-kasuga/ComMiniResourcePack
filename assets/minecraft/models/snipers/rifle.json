@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "minecraft:item/rifle",
-		"particle": "minecraft:item/rifle"
+		"0": "minecraft:snipers/rifle",
+		"particle": "minecraft:snipers/rifle"
 	},
 	"elements": [
 		{

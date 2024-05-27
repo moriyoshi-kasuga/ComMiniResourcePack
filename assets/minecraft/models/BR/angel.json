@@ -1,6 +1,7 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
+  "parent": "minecraft:item/generated",
+  "textures": {
     "layer0": "minecraft:item/BR/angel"
-    }
+  }
 }
+
