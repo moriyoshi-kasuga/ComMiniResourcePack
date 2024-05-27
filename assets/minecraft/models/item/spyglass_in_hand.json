@@ -1,6 +1,6 @@
 {
   "textures": {
-    "spyglass": "snipers/spyglass_model"
+    "spyglass": "item/spyglass_model"
   },
   "elements": [
     {

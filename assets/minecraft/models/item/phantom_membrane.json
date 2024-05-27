@@ -10,7 +10,7 @@
     {"predicate": {"custom_model_data":4}, "model": "minecraft:snipers/emerald_bullet"},
     {"predicate": {"custom_model_data":5}, "model": "minecraft:snipers/diamond_bullet"},
     {"predicate": {"custom_model_data":6}, "model": "minecraft:snipers/amethyst_bullet"},
-    {"predicate": {"custom_model_data":7}, "model": "minecraft:BR/wing"},
-    {"predicate": {"custom_model_data":8}, "model": "minecraft:BR/angel"}
+    {"predicate": {"custom_model_data":7}, "model": "minecraft:br/wing"},
+    {"predicate": {"custom_model_data":8}, "model": "minecraft:br/angel"}
   ]
 }
