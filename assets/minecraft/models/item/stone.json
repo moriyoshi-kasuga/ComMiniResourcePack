@@ -1,0 +1,18 @@
+{
+  "$comment": "鉄Lv.1 エメラルドLv.2 ラピスラズリLv.3 ダイアlv.4 アメジストLv.5",
+  "parent": "minecraft:block/stone",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "minecraft:block/br/iron"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "minecraft:block/br/diamond"
+    }
+  ]
+}
