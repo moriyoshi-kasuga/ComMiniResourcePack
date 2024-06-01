@@ -2,7 +2,7 @@
     "parent": "minecraft:block/slab",
     "textures": {
         "bottom": "minecraft:block/invisible",
-        "side": "minecraft:block/br/chest_rating/diamond",
-        "top": "minecraft:block/br/chest_rating/diamond_top"
+        "side": "minecraft:block/br/chest_rating/iron",
+        "top": "minecraft:block/br/chest_rating/iron_top"
     }
 }
