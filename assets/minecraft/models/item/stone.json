@@ -10,9 +10,27 @@
     },
     {
       "predicate": {
-        "custom_model_data": 4
+        "custom_model_data": 2
+      },
+      "model": "minecraft:block/br/lapis"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
       },
       "model": "minecraft:block/br/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "minecraft:block/br/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "minecraft:block/br/amethyst"
     }
   ]
 }

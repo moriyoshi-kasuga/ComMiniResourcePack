@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "minecraft:block/invisible",
+        "side": "minecraft:block/br/chest_rating/lapis",
+        "top": "minecraft:block/br/chest_rating/lapis_top"
+    }
+}
