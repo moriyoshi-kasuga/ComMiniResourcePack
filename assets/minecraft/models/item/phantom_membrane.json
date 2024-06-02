@@ -11,6 +11,8 @@
     {"predicate": {"custom_model_data":5}, "model": "minecraft:snipers/diamond_bullet"},
     {"predicate": {"custom_model_data":6}, "model": "minecraft:snipers/amethyst_bullet"},
     {"predicate": {"custom_model_data":7}, "model": "minecraft:br/wing"},
-    {"predicate": {"custom_model_data":8}, "model": "minecraft:br/angel"}
+    {"predicate": {"custom_model_data":8}, "model": "minecraft:br/angel"},
+    {"predicate": {"custom_model_data":9}, "model": "minecraft:br/phoenix_feather"},
+    {"predicate": {"custom_model_data":10}, "model": "minecraft:br/invi_cloak"}
   ]
 }
