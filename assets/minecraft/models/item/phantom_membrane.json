@@ -23,7 +23,8 @@
     {"predicate": {"custom_model_data":17}, "model": "minecraft:br/onigiri"},
     {"predicate": {"custom_model_data":18}, "model": "minecraft:br/shield"},
     {"predicate": {"custom_model_data":19}, "model": "minecraft:br/godchest"},
-    {"predicate": {"custom_model_data":20}, "model": "minecraft:br/throwhook"}
+    {"predicate": {"custom_model_data":20}, "model": "minecraft:br/throwhook"},
+    {"predicate": {"custom_model_data":21}, "model": "minecraft:br/recall_clock"}
 
   ]
 }
