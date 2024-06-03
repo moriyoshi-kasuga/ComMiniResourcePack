@@ -19,7 +19,7 @@ jobs:
       - name: Calculate hash of resource.zip
         id: calculate-hash
         run: |
-          sha256sum resources.zip | awk '{ print $1 }' > hash.txt
+          sha1sum resources.zip | awk '{ print $1 }' > hash.txt
 
       - name: Commit and push hash.txt
         env:
