@@ -26,7 +26,8 @@
     {"predicate": {"custom_model_data":20}, "model": "minecraft:br/throwhook"},
     {"predicate": {"custom_model_data":21}, "model": "minecraft:br/recall_clock"},
     {"predicate": {"custom_model_data":22}, "model": "minecraft:br/echo_bell"},
-    {"predicate": {"custom_model_data":23}, "model": "minecraft:br/vampire_sword"}
+    {"predicate": {"custom_model_data":23}, "model": "minecraft:br/vampire_sword"},
+    {"predicate": {"custom_model_data":24}, "model": "minecraft:br/shockwave"}
 
 
   ]
