@@ -31,7 +31,8 @@
     {"predicate": {"custom_model_data":25}, "model": "minecraft:br/heelring"},
     {"predicate": {"custom_model_data":26}, "model": "minecraft:br/randomscanner"},
     {"predicate": {"custom_model_data":27}, "model": "minecraft:br/yoidama"},
-    {"predicate": {"custom_model_data":28}, "model": "minecraft:br/gun"}
+    {"predicate": {"custom_model_data":28}, "model": "minecraft:br/gun"},
+    {"predicate": {"custom_model_data":29}, "model": "minecraft:br/cow_ball"}
 
   ]
 }
