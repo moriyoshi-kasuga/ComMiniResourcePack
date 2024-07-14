@@ -19,7 +19,9 @@ jobs:
       - name: Calculate hash of resource.zip
         id: calculate-hash
         run: |
-          sha1sum resources.zip | awk '{ print $1 }' > hash.txt
+          hash=$(sha1sum resources.zip | awk '{ print $1 }')
+          echo "hash=$hash" >> "$GITHUB_ENV"
+          echo "$hash" > hash.txt
 
       - name: Commit and push hash.txt
         env:
@@ -38,3 +40,10 @@ jobs:
           automatic_release_tag: "latest"
           prerelease: true
           files: "resources.zip"
+
+      - name: Invoke release hook
+        uses: distributhor/workflow-webhook@v3
+        with:
+          webhook_url: ${{ secrets.WEBHOOK_URL }}
+          webhook_secret: ${{ secrets.WEBHOOK_SECRET }}
+          data: '{ "hash": "${{ env.hash }}" }'
